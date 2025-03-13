@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #f1f1f1;
+}
+header{
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#globalNavList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    list-style-type: none;
+    width: auto;
+    height: 44px;
+    user-select: none;
+    margin: auto;
+    padding: auto;
+}
+li a{
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#content{
+    display: table;
+}
+figure{
+    width: 3008px;
+    height: 692px;
+    background-size: 3008px 692px;
+    background-repeat: no-repeat;
+    background-image: url(hero_macbook_air_announce__dqw53b1i7j6u_largetall.jpg)
+}
+.MacSection-content{
+    display: block;
+}
