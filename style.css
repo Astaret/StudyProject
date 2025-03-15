@@ -39,12 +39,22 @@ li a{
     display: table;
 }
 figure{
-    width: 3008px;
-    height: 692px;
-    background-size: 3008px 692px;
+    width: 100%;
+    height: 700px;
     background-repeat: no-repeat;
-    background-image: url(hero_macbook_air_announce__dqw53b1i7j6u_largetall.jpg)
+    overflow: hidden;
+    object-fit: cover;
+    background: url(hero_macbook_air_announce__dqw53b1i7j6u_largetall.jpg) center center;
 }
 .MacSection-content{
     display: block;
+}
+.unit-image-macbook-air-hero-macbook-air-announce{
+    position: relative;
+    display: inline-block;
+}
+.unit-image-macbook-air-hero-macbook-air-announce figcaption{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
