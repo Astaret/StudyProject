@@ -1,0 +1,26 @@
+header{
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#globalNavList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    list-style-type: none;
+    width: auto;
+    height: 44px;
+    user-select: none;
+    margin: auto;
+    padding: auto;
+}
+
+#content{
+    display: table;
+}
