@@ -30,6 +30,10 @@ figure{
     object-fit: cover;
 }
 
+section{
+    padding-bottom: 10px;
+}
+
 /* TOTAL CSS SETTINGS FOR FRAGMENTS */
 
 .split-wrapper-top{
