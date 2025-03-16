@@ -29,6 +29,9 @@ header nav{
     margin: auto;
     padding: auto;
 }
+li{
+    font-size: 17px;
+}
 li a{
     padding: 12px;
     text-decoration: none;
@@ -57,6 +60,7 @@ figure{
     position: absolute;
     left: 50%;
     transform: translateX(-50%) translateY(40%);
+    text-align: center;
 }
 .unit-image-macbook-air-hero-macbook-air-announce h2{
     font-size: 56px;
@@ -76,9 +80,20 @@ figure{
     text-decoration: none;
     font-size: 17px;
     border-style: solid;
+    border: solid #0071e3;
+    display: inline-block;
     border-width: 1px;
     padding-left: 21px;
     padding-right: 21px;
     padding-top: 11px;
     padding-bottom: 11px;
+    color: #0071e3;
+    border-radius: 980px;
+}
+.button-container{
+    margin-top: 20px;
+}
+#learnMore-button{
+    color: #fff;;
+    background: #0071e3;
 }
