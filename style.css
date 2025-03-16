@@ -68,7 +68,7 @@ figure{
 .unit-image-macbook-air-hero-macbook-air-announce p{
     font-size: 28px;
 }
-.subhead{
+.split-wrapper-top{
     text-align: center;
     display: block;
     width: 100%;
@@ -96,4 +96,14 @@ figure{
 #learnMore-button{
     color: #fff;;
     background: #0071e3;
+}
+.ai-gradient{
+    background: linear-gradient(94deg, #0090f7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 21px;
+}
+.split-wrapper-bottom{
+    transform: translateY(950%);
 }
