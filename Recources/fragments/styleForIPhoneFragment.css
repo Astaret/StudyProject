@@ -1,0 +1,43 @@
+
+.IphoneSection-content{
+    height: 692px;
+    position: relative;
+    width: 100%;
+}
+
+.unit-image-iphone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(background_img_folder/hero_iphone16_avail__euwzls69btea_large.jpg) center center / cover no-repeat;
+}
+
+.unit-image-iphone figcaption{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(35%);
+    text-align: center;
+}
+
+.unit-image-iphone h2{
+    font-size: 56px;
+    color: white;
+}
+.unit-image-iphone #learnMore-button{
+    color: black;
+    background: white;
+}
+
+.unit-image-iphone #Buy-button{
+    color: white;
+    border: solid white;
+    border-width: 1px;
+}
+
+.unit-image-iphone p{
+    font-size: 28px;
+    color: white;
+}

@@ -1,0 +1,33 @@
+
+.iPhoneProSection-content{
+    height: 692px;
+    position: relative;
+    width: 100%;
+}
+
+.unit-image-iphonePro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(background_img_folder/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg) center center / cover no-repeat;
+}
+
+.unit-image-iphonePro figcaption{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(35%);
+    text-align: center;
+}
+
+.unit-image-iphonePro h2{
+    font-size: 56px;
+    color: white;
+}
+
+.unit-image-iphonePro p{
+    font-size: 28px;
+    color: white;
+}

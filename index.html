@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Recources/style.css">
+    <link rel="stylesheet" href="Recources/fragments/styleForHeaderFragment.css">
+    <link rel="stylesheet" href="Recources/fragments/styleForIPhoneProFragment.css">
+    <link rel="stylesheet" href="Recources/fragments/styleForIPhoneFragment.css">
+    <link rel="stylesheet" href="Recources/fragments/styleForAppleWatchFragment.css">
+    <link rel="stylesheet" href="Recources/fragments/styleForProductsFragment.css">
     <title>Document</title>
 </head>
 
@@ -33,7 +38,7 @@
                 <li>
                     <a href="">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
-                            <path
+                            <path class="apple_logo"
                                 d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
                             </path>
                         </svg>
@@ -51,9 +56,60 @@
     </Header>
 
 
-    <section class="MacSection">
-        <div class="MacSection-content">
-            <figure class="unit-image-macbook-air-hero-macbook-air-announce">
+    <section class="iPhoneProSection">
+        <div class="iPhoneProSection-content">
+            <figure class="unit-image-iphonePro">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2>iPhone 16 Pro</h2>
+                        <p>Hello, Apple Intelligence</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button">Buy</a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class = "IphoneSection">
+        <div class="IphoneSection-content">
+            <figure class="unit-image-iphone">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2>iPhone 16</h2>
+                        <p>Hello, Apple Intelligence</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button" id = "Buy-button">Buy</a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="AppleWatch">
+        <div class="AppleWatch-content">
+            <figure class="unit-image-AppleWatch">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2></h2>
+                        <p>Thinstant classic</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button" id = "Buy-button">Buy</a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <figure  id="MacBook">
                 <figcaption>
                     <div class="split-wrapper-top">
                         <h2>MacBook Air</h2>
@@ -74,24 +130,83 @@
                 </figcaption>
             </figure>
         </div>
-    </section>
-
-
-    <section class="products">
         <div class="product">
-            <img src="" alt="Macbook">
-            <h2>Macbook Pro</h2>
-            <p>Powerful performance</p>
+            <figure  id="iPad">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2></h2>
+                        <p>Now supercharged by the M3 chip</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button">Buy</a>
+                    </div>
+                    <div class="split-wrapper-bottom">
+                        <p class="subhead">
+                            <span class = "ai-gradient">
+                                Built for Apple Intelligence.
+                            </span>
+                        </p>
+                    </div>
+                </figcaption>
+            </figure>
         </div>
         <div class="product">
-            <img src="" alt="iPad">
-            <h2>iPad Pro</h2>
-            <p>All new design</p>
+            <figure  id="AirPods">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2>AirPods Pro 2</h2>
+                        <p>Now with a Hearng Aid feature.</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button">Buy</a>
+                    </div>
+                </figcaption>
+            </figure>
         </div>
         <div class="product">
-            <img src="" alt="Apple Watch">
-            <h2>Apple Watch Series 7</h2>
-            <p>Fitness at your fingertips</p>
+            <figure  id="Carrier">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2>Carrier deals at Apple</h2>
+                        <p>Get up to $1000 in credit on a new iPhone.</p>
+                        <p>Trade-in may be required</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Find your deal</a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="product">
+            <figure  id="TradeIn">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2></h2>
+                        <p>Get $170-$630 in credit when you</p>
+                        <p>trade in iPhone 12 or higher.</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Get your estimate</a>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="product">
+            <figure  id="Card">
+                <figcaption>
+                    <div class="split-wrapper-top">
+                        <h2></h2>
+                        <p>Get up to 3% Daily Cash back</p>
+                        <p>with every purchase</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="mtb-button" id = "learnMore-button">Learn more</a>
+                        <a href="#" class="mtb-button">Apply now</a>
+                    </div>
+                </figcaption>
+            </figure>
         </div>
     </section>
 
