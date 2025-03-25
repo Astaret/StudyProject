@@ -1,0 +1,87 @@
+/*   TOTAL CSS SETTINGS   */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: white;
+}
+
+li{
+    font-size: 12px;
+}
+path{
+    fill: white;
+}
+li a{
+    padding: 12px;
+    text-decoration: none;
+    color: #c2c9d6;
+    text-align: center;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+section{
+    padding-bottom: 10px;
+}
+
+/* TOTAL CSS SETTINGS FOR FRAGMENTS */
+
+.split-wrapper-top{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mtb-button{
+    text-decoration: none;
+    font-size: 17px;
+    border-style: solid;
+    border: solid #0071e3;
+    display: inline-block;
+    border-width: 1px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: #0071e3;
+    border-radius: 980px;
+}
+
+.button-container{
+    margin-top: 20px;
+}
+
+#learnMore-button{
+    color: #fff;;
+    background: #0071e3;
+}
+
+.ai-gradient{
+    background: linear-gradient(94deg, #0090f7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.split-wrapper-bottom{
+    transform: translateY(1300%);
+}
+
+
+

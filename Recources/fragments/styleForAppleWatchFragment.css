@@ -1,0 +1,37 @@
+
+.AppleWatch-content{
+    height: 692px;
+    position: relative;
+    width: 100%;
+}
+
+.unit-image-AppleWatch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(background_img_folder/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg) center center / cover no-repeat;
+}
+
+.unit-image-AppleWatch figcaption{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(35%);
+    text-align: center;
+}
+
+.unit-image-AppleWatch h2{
+    height: 80px;
+    background-size: 210px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(background_img_folder/hero_logo_apple_watch_series_10__dla4dkv1wfue_large.png);
+}
+
+.unit-image-AppleWatch p{
+    padding-top: 20px;
+    font-size: 28px;
+    color: black;
+}
