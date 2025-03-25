@@ -1,0 +1,133 @@
+.products {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 3px; 
+    margin-left: 10px;
+}
+.product{
+    width: calc(50% - 3px);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+    padding: 5px;
+}
+.products Figure{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#MacBook{
+    background-image: url(background_img_folder/backgroundProducts/promo_macbook_air_avail__e8ksaudoisey_large.jpg);
+}
+#MacBook figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(-90%);
+    text-align: center;
+}
+#MacBook h2{
+    font-size: 40px;
+    color: black;
+}
+#MacBook p{
+    font-size: 21px;
+    color: black;
+}
+#iPad figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(-110%);
+    text-align: center;
+}
+#iPad{
+    background-image: url(background_img_folder/backgroundProducts/promo_ipad_air__bfbxzvw65c02_large.jpg);
+}
+#iPad .split-wrapper-bottom{
+    transform: translateY(1200%);
+}
+#iPad h2{
+    height: 33px;
+    background-size: 144px 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(background_img_folder/promo_logo_ipadair__frwnnsqveeye_large.png);
+}
+#iPad p{
+    color: black;
+    padding-top: 10px;
+}
+#AirPods{
+    background-image: url(background_img_folder/backgroundProducts/promo_airpods_pro_2_avail__vkitqi3okwie_large.jpg);
+}
+#AirPods figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(140%);
+    text-align: center;
+}
+#AirPods h2{
+    font-size: 40px;
+}
+#AirPods p{
+    font-size: 21px;
+}
+#Carrier{
+    background-image: url(background_img_folder/backgroundProducts/promo_carrier__e0izvxwqosgi_large.jpg);
+}
+#Carrier figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(100%);
+    text-align: center;
+}
+#Carrier h2{
+    color: black;
+    font-size: 40px;
+}
+#Carrier p{
+    color: black;
+    font-size: 21px;
+}
+#TradeIn{
+    background-image: url(background_img_folder/backgroundProducts/promo_iphone_tradein__bugw15ka691e_large.jpg);
+}
+#TradeIn figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(-100%);
+    text-align: center;
+}
+#TradeIn h2{
+    height: 33px;
+    background-size: 155px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(background_img_folder/promo_logo_iphone_tradein__7y3gtai5az66_large.png);
+}
+#TradeIn p{
+    padding-top: 21px;
+    color: black;
+}
+#Card{
+    background-image: url(background_img_folder/backgroundProducts/promo_apple_card__5cm7draujpey_large.jpg);
+}
+#Card h2{
+    height: 33px;
+    background-size: 108px 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(background_img_folder/logo__dcojfwkzna2q_large.png);
+}
+#Card p{
+    padding-top: 21px;
+    color: black;
+}
+#Card figcaption{
+    position: absolute;
+    transform: translateX(0%) translateY(-90%);
+    text-align: center;
+}

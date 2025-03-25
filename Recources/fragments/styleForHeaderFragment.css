@@ -1,7 +1,7 @@
 header{
-    background-color: white;
+    background-color: #1d1e20;
+    backdrop-filter: blur(10px);
     color: white;
-    padding: 10px 20px;
     text-align: center;
 }
 header nav{
@@ -9,6 +9,17 @@ header nav{
     justify-content: space-between;
     align-items: center;
 }
+
+#globalNavList li{
+    padding-top: 2px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+}
+
+.apple_logo{
+    color: white;
+}
+
 #globalNavList{
     display: flex;
     justify-content: space-between;
