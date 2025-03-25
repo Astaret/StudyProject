@@ -1,0 +1,96 @@
+.accessories {
+    width: 100%;
+    margin: 50px auto;
+}
+.search{
+    position: relative;
+    text-align: center;
+}
+.accessories h1 {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.tabs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tabs button {
+    color: whitesmoke;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.tabs .active {
+    border-bottom: 2px solid whitesmoke;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.icon-item {
+    text-align: center;
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle img {
+    background-color: white;
+    color: whitesmoke;
+    border: 10px solid whitesmoke;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.accessories p {
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.show-more {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.show-more a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+
+
+

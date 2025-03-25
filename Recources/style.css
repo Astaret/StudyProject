@@ -84,4 +84,9 @@ section{
 }
 
 
-
+.filtLine{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 2px;
+    margin: 10px;
+}
