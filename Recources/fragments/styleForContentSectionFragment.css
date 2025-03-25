@@ -1,0 +1,39 @@
+.mainContent{
+    
+    width: 100%;
+    height: 630px;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.imgContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#imgContent{
+    max-width: 100%;
+    overflow: hidden;
+    width: auto;
+}
+.textContent{
+    position: relative;
+    top: 70px;
+    left: 500px;
+}
+.container h2{
+    width: 300px;
+    font-size: 48px;
+}
+.container p{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 21px;
+}
+#shopMagSafe-button{
+    color: #06c;
+    text-decoration: none;
+}
